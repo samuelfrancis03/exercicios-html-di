@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+
+<body>
+    <a href="index.html">Voltar</a>
+
+    <form name="meuForm" method="post" id="formulario">
+        <div>
+            <h1>Formulario Escola de Ingkês:</h1>
+
+            <label>
+                <span>Nome Completo</span>
+                <input type="text" name="nome" id="name" />
+
+            </label>
+            <br>
+            <label>
+                <span>Email</span>
+                <input type="text" name="email" id="email" />
+            </label>
+            <br>
+            <label>
+                <span>Data de Nascimento</span>
+                <input type="date" name="dt_nasc" id="dt_nasc" />
+            </label>
+            <br>
+            <label>
+                <span>Assunto</span>
+                <input type="text" class="input_text" name="assunto" id="subject" />
+            </label>
+            <br>
+            <label>
+                <span>Sexo</span>
+                <input type="text" name="sexo" id="sexo" />
+
+            </label>
+            <br>
+            <label>
+                <span>Escolha seu nivel de comunicação:</span>
+                <select name="nivelIngles" id="nivelIngles">
+                    <option value="iniciante">iniciante</option>
+                    <option value="intermediário">intermediário</option>
+                    <option value="avançado">avançado</option>
+                    <option value="fluente">fluente</option>
+                </select>
+                <label>
+                    <br>
+                    <span>De acordo com a política </span>
+                    <input type="checkbox" name="deacordo" id="deacordo">
+                </label>
+                <br>
+                <label>
+                    <span>Mensagem</span>
+                    <textarea class="message" name="feedback" id="feedback"></textarea>
+                    <input type="button" class="button" value="Enviar" />
+                </label>
+        </div>
+</body>
+
+</html>
